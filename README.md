@@ -23,7 +23,7 @@ Rather than focusing only on prediction accuracy, the project emphasizes busines
 
 The final solution predicts churn using XGBoost and explains every prediction through SHAP, allowing decision makers to understand both **who is likely to churn and why**.
 
-![Churn Distribution](images/ChurnDistribution.png)
+![Churn Distribution](images/churn-distribution.png)
 
 ---
 
@@ -93,7 +93,7 @@ Major findings included:
 - Network quality had less impact than expected.
 - Geographic differences exist but are relatively small.
 
-![Correlation Heatmap](images/CorrelationHeatmap.png)
+![Correlation Heatmap](images/correlation-heatmap.png)
 
 ---
 
@@ -146,9 +146,9 @@ Evaluation Metrics:
 
 The model successfully captures complex nonlinear relationships between customer behavior and churn while maintaining balanced predictive performance.
 
-![Confusion Matrix](images/ConfusionMatrix.png)
+![Confusion Matrix](images/confusion-matrix.png)
 
-![Feature Importance](images/FeatureImportance.png)
+![Feature Importance](images/feature-importance.png)
 
 ---
 
@@ -171,8 +171,8 @@ The strongest churn drivers identified by SHAP include:
 - Value for money
 - Household structure
 
-![SHAP summary](images/SHAP.png)
-![SHAP waterfall](images/SHAPWaterfall.png)
+![SHAP summary](images/shap.png)
+![SHAP waterfall](images/shap-waterfall.png)
 
 ---
 
