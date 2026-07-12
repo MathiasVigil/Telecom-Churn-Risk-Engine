@@ -1,3 +1,4 @@
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/MathiasVigil/Telecom-Churn-Risk-Engine/blob/main/notebook/Telecom-Churn-Risk-Engine.ipynb)
 # 📱 Telecom Customer Churn Prediction using XGBoost
 
 > End-to-end machine learning project that predicts customer churn for a telecommunications company using business-driven feature engineering, XGBoost, and SHAP explainability.
