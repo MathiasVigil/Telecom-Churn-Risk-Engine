@@ -4,6 +4,9 @@
 
 ![Python](https://img.shields.io/badge/Python-3.12-blue)
 ![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-orange)
+![NumPy](https://img.shields.io/badge/NumPy-Numerical%20Computing-blueviolet)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-success)
+![Seaborn](https://img.shields.io/badge/Seaborn-Statistical%20Plots-9cf)
 ![Scikit-Learn](https://img.shields.io/badge/scikit--learn-Machine%20Learning-yellow)
 ![XGBoost](https://img.shields.io/badge/XGBoost-Gradient%20Boosting-green)
 ![SHAP](https://img.shields.io/badge/SHAP-Explainable%20AI-red)
@@ -19,6 +22,8 @@ This project develops an end-to-end machine learning pipeline capable of identif
 Rather than focusing only on prediction accuracy, the project emphasizes business understanding, feature engineering, model explainability, and actionable business recommendations.
 
 The final solution predicts churn using XGBoost and explains every prediction through SHAP, allowing decision makers to understand both **who is likely to churn and why**.
+
+![Churn Distribution](images/ChurnDistribution.png)
 
 ---
 
@@ -88,6 +93,8 @@ Major findings included:
 - Network quality had less impact than expected.
 - Geographic differences exist but are relatively small.
 
+![Correlation Heatmap](images/CorrelationHeatmap.png)
+
 ---
 
 # Feature Engineering
@@ -139,6 +146,10 @@ Evaluation Metrics:
 
 The model successfully captures complex nonlinear relationships between customer behavior and churn while maintaining balanced predictive performance.
 
+![Confusion Matrix](images/ConfusionMatrix.png)
+
+![Feature Importance](images/FeatureImportance.png)
+
 ---
 
 # Explainable AI (SHAP)
@@ -159,6 +170,9 @@ The strongest churn drivers identified by SHAP include:
 - Monthly usage
 - Value for money
 - Household structure
+
+![SHAP summary](images/SHAP.png)
+![SHAP waterfall](images/SHAPWaterfall.png)
 
 ---
 
@@ -248,8 +262,8 @@ telecom-churn-prediction/
 
 Computer Engineering Student
 
-University of the Republic (Uruguay)
+Universidad de la Republica (Uruguay)
 
-GitHub: https://github.com/yourusername
+GitHub: https://github.com/MathiasVigil
 
-LinkedIn: https://linkedin.com/in/yourprofile
+LinkedIn: https://linkedin.com/in/mathiasvigil
