@@ -1,4 +1,4 @@
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/MathiasVigil/Telecom-Churn-Risk-Engine/blob/main/notebook/Telecom-Churn-Risk-Engine.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/MathiasVigil/Telecom-Churn-Risk-Engine/blob/main/notebook/telecom-churn-risk-engine.ipynb)
 # 📱 Telecom Customer Churn Prediction using XGBoost
 
 > End-to-end machine learning project that predicts customer churn for a telecommunications company using business-driven feature engineering, XGBoost, and SHAP explainability.
@@ -198,22 +198,27 @@ These interventions create targeted retention campaigns instead of offering disc
 # Repository Structure
 
 ```text
-telecom-churn-prediction/
+telecom-churn-risk-engine/
 
+├── notebook/
+│   └── telecom-churn-risk-engine.ipynb
 │
-├── notebooks/
-│      Telecom_Churn.ipynb
+├── data/
+│   ├── client.csv
+│   └── record.csv
 │
 ├── images/
-│      eda/
-│      model/
-│      shap/
+│   ├── churn-distribution.png
+│   ├── confusion-matrix.png
+│   ├── correlation-heatmap.png
+│   ├── feature-importance.png
+│   ├── shap.png
+│   └── shap-waterfall.png
 │
-├── requirements.txt
-│
+├── .gitignore
 ├── LICENSE
-│
-└── README.md
+├── README.md
+└── requirements.txt
 ```
 
 ---
@@ -242,18 +247,6 @@ telecom-churn-prediction/
 - Data Visualization
 - Model Evaluation
 - Customer Churn Prediction
-
----
-
-# Future Improvements
-
-- Cross-validation
-- Hyperparameter optimization using Optuna
-- Streamlit deployment
-- FastAPI prediction endpoint
-- Docker containerization
-- CI/CD pipeline
-- MLflow experiment tracking
 
 ---
 
